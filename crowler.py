@@ -14,6 +14,7 @@ def update_html_table(csv_filename='khotbeh_data.csv', html_filename='output.htm
             reader = csv.reader(file)
             data = list(reader)
 
+
         # ساخت کد HTML
         html_content = """
         <!DOCTYPE html>
@@ -226,3 +227,6 @@ while True:
 
 
 print(f'تعداد کل صفحات{pn}')
+print(f'تعداد کل خطبه ها{len(href_values)}')
+print('پایان')
+
