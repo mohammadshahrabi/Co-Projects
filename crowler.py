@@ -223,6 +223,7 @@ while True:
             writer = csv.writer(file) 
             writer.writerow(data)
                 
+                
         update_html_table(csv_filename='khotbeh_data.csv', html_filename='output.html') # update html file
 
 
